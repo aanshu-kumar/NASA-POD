@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA POD</title>
+    <link href="./style.css" rel="Stylesheet">
+</head>
+<body>
+    <section id="details-section">
+        <div id="current-image-container">
+        </div>
+    </section >
+    <section id="search-section">
+    <div id="form-container">
+        <form id="search-form">
+            <label for="search-input">Choose a Date:</label><br>
+            <input id="search-input" type="date">
+            <button type="button" onclick="getImageOfTheDay()">Select Date</button>
+        </form>
+    </div>
+    <div id="history-container">
+        <p>History:</p>
+        <ul id="search-history">
+        </ul>
+    </div>
+
+
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
